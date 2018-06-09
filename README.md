@@ -1,2 +1,2 @@
 # kalories
-Android application to calculate your required TDEE , Macros , BMI and other related infromation
+A very simple android application to calculate and track your required TDEE , BMR , BMI and other related infromation

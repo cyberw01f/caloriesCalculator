@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cyberw01f.kalc.KalcMainActivity">
+    <item
+        android:id="@+id/action_about"
+        android:checkable="false"
+        android:icon="@drawable/kalc_action_help"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_edit_profile"
+        android:checkable="false"
+        android:orderInCategory="100"
+        android:title="@string/action_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_all"
+        android:checkable="false"
+        android:orderInCategory="100"
+        android:title="@string/reset_label"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/codeLink"
+        android:checkable="false"
+        android:orderInCategory="100"
+        android:title="@string/view_code"
+        app:showAsAction="never" />
+
+</menu>

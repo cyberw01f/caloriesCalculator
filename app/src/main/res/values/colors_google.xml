@@ -1,0 +1,11 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+    <color name="primaryColorGoogle">#2962ff</color>
+    <color name="primaryLightColorGoogle">#768fff</color>
+    <color name="primaryDarkColorGoogle">#0039cb</color>
+    <color name="secondaryColorGoogle">#0097a7</color>
+    <color name="secondaryLightColorGoogle">#56c8d8</color>
+    <color name="secondaryDarkColorGoogle">#006978</color>
+    <color name="primaryTextColorGoogle">#ffffff</color>
+    <color name="secondaryTextColorGoogle">#000000</color>
+</resources>

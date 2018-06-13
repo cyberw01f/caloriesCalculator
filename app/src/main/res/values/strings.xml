@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Kalc</string>
+    <string name="unit_label">Units</string>
+    <string name="gender_label">Gender</string>
+    <string name="age_label">Age</string>
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+    <string name="activity_label">Activity</string>
+    <string name="reset_label">Clear screen</string>
+    <string name="calculate_label">Calculate</string>
+    <string name="history_label">View History</string>
+    <string-array name="units_array">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="activity_array">
+        <item>Sedentary</item>
+        <item>Lightly active</item>
+        <item>Moderately active</item>
+        <item>Very active</item>
+        <item>Extremely active</item>
+    </string-array>
+    <string name="title_activity_results">Results</string>
+    <string name="bmr_label">BMR</string>
+    <string name="tdee_label">TDEE</string>
+    <string name="bmi_label">BMI</string>
+    <string name="log_label">Save result</string>
+    <string name="action_about">Help</string>
+    <string name="action_profile">Edit Profile</string>
+    <string name="title_activity_about_me">Help</string>
+    <string name="aboutApp"><b><u>What is TDEE?</u></b>
+        \nTDEE, total daily energy expenditure,
+        is the amount of energy in calories you burn per day.
+        TDEE is best calculated by factoring in your BMR, or basal metabolic rate, and your activity level.
+        \n\n<b><u>What is BMR?</u></b>
+        \nBMR is the amount of calories you would burn per day at rest, in other words eating less than this value could be dangerous.
+        \n\n<b><u>What is BMI?</u></b>
+        \nBody Mass Index (BMI) is a relationship between weight and height, which is used to categorize a person as underweight, normal weight, overweight.
+        \n\n<b><u>What do the activity level mean?</u></b>
+        \n<b>Sedentary</b> = Little or no Exercise/ desk job
+        \n<b>Lightly Active</b> = Light exercise/ sports 1 – 3 days/ week
+        \n<b>Moderately Active</b> = Moderate Exercise, sports 3 – 5 days/ week
+        \n<b>Very Active</b> = Heavy Exercise/ sports 6 – 7 days/ week
+        \n<b>Extremely Active</b> = Very heavy exercise/ physical job/ training 2 x/ day
+    </string>
+    <string name="view_code">View source code</string>
+    <string name="tooMuch">Made with &#x2764; on planet Earth</string>
+    <string name="title_activity_history">History</string>
+    <string name="bmi_status">You are</string>
+    <string name="tryingTo_label">Trying to</string>
+    <string-array name="tryingTo_array">
+        <item>Loose weight</item>
+        <item>Gain weight</item>
+        <item>Maintain weight</item>
+    </string-array>
+    <string name="tryingToMsg">PlaceHolder</string>
+    <string name="date_label">Date</string>
+    <string name="intake_label">Calories</string>
+    <string name="action_delete_history">Delete history</string>
+    <string name="action_export_history">Export history</string>
+    <string name="user_label">User</string>
+    <string name="update_button_label">Update Profile</string>
+    <string name="activity_profile_title">Edit Profile</string>
+    <string name="profile_fileName">com.cyberw01f.kalc.profile_data</string>
+    <string name="unit_pref">unitPrefKey</string>
+    <string name="gender_pref">genderPrefKey</string>
+    <string name="age_pref">agePrefKey</string>
+    <string name="height_pref">heightPrefKey</string>
+    <string name="weight_pref">weightPrefKey</string>
+    <string name="load_button_label">Load Profile</string>
+</resources>

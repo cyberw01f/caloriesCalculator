@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cyberw01f.kalc.History">
+    <item
+        android:id="@+id/action_delete_history"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title="@string/action_delete_history"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_export_history"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/action_export_history"
+        app:showAsAction="never" />
+</menu>

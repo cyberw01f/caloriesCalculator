@@ -1,0 +1,201 @@
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Profile">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="75dp">
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:measureWithLargestChild="true"
+            tools:context=".Profile"
+            android:padding="3dp">
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/unitLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="@string/unit_label"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <Spinner
+                    android:id="@+id/unitSpinner"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:entries="@array/units_array"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/background_ui">
+
+                <TextView
+                    android:id="@+id/genderLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="@string/gender_label"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    />
+
+                <Spinner
+                    android:id="@+id/genderSpinner"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:entries="@array/gender_array"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/ageLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/age_label"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    />
+                <Spinner
+                    android:id="@+id/ageSpinner"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/background_ui">
+
+                <TextView
+                    android:id="@+id/heightLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/height_label"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <EditText
+                    android:id="@+id/heightInput"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:ems="10"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Enter height"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/weightLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="@string/weight_label"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    />
+
+                <EditText
+                    android:id="@+id/weightInput"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:ems="10"
+                    android:hint="Enter weight"
+                    android:layout_gravity="center_vertical"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <View style="@style/Divider"/>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@color/background_ui">
+                <Button
+                    android:id="@+id/loadButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:background="@drawable/button_back"
+                    android:text="@string/load_button_label"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/icons" />
+                <Button
+                    android:id="@+id/updateButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:background="@drawable/button_back"
+                    android:text="@string/update_button_label"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/icons" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

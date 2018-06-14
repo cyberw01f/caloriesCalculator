@@ -2,6 +2,11 @@
 ## Health and Fitness Buddy
 A very simple privacy respecting android application to calculate required TDEE , BMR , BMI and track your intake v/s weight.
 
+
+### Screenshots:
+
+<img src="./Screenshots/Main_screen.png" height=100 caption="Main Screen"/>
+
 ### Availability:
 For now you can build apks using the code, I will try to get the app onto Google Play Store and F-Droid repo in the near future.
 

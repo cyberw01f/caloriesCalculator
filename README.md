@@ -5,7 +5,10 @@ A very simple privacy respecting android application to calculate required TDEE 
 
 ### Screenshots:
 
-<img src="./Screenshots/Main_screen.png" height=100 caption="Main Screen"/>
+<img src="./Screenshots/Main_screen.png" height=400 title="Main Screen"/>
+<img src="./Screenshots/Results_screen.png" height=400 title="Results Screen"/>
+<img src="./Screenshots/History_screen.png" height=400 title="History Screen"/>
+<img src="./Screenshots/Profile_screen.png" height=400 title="Profile Screen"/>
 
 ### Availability:
 For now you can build apks using the code, I will try to get the app onto Google Play Store and F-Droid repo in the near future.

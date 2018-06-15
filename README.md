@@ -19,7 +19,7 @@ A very simple privacy respecting android application to calculate required TDEE 
 </div>
 
 ### Availability:
-For now you can build apks using the code, I will try to get the app onto Google Play Store* and F-Droid repo in the near future.
+The app is available on Google Play Store, will try to get it on F-Droid too.
 
 ### Feature planned for future release:
 * UI overhaul to a more material design
@@ -37,4 +37,4 @@ I wanted to create a completely free and open source alternative to the applicat
 ### Licensing:
 The application is provided under GNU GPL v3, you should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
-* “Google Play and the Google Play logo are trademarks of Google LLC.” 
+“Google Play and the Google Play logo are trademarks of Google LLC.” 
